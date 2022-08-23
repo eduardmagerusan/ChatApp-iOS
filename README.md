@@ -44,3 +44,4 @@ service cloud.firestore {
   }
 }
 ```
+9. Open the terminal, navigate to project folder and run "pod update" (without quotation marks).
