@@ -9,7 +9,7 @@ This project is written in Swift 5.0 and requires Xcode 13+ to build and run.
 
 ## Sign Up or Login
 <p float="center" align="center">
-  <img src="https://user-images.githubusercontent.com/84686184/186277636-b7b8b19b-ef34-49eb-b882-16cb6ec1b82b.png" alt="Light apperance" width="300"/>
+  <img src="https://user-images.githubusercontent.com/84686184/186278320-ba9b5ca6-5424-415c-883c-1081ea523c15.png" alt="Light apperance" width="300"/>
 </p>
 
 ## Features
