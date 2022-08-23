@@ -1,5 +1,8 @@
 ##Project-wide
 .DS_Store
+GoogleService-Info.plist
+IDEWorkspaceChecks.plist
+Pods/
 
 # Xcode
 #
