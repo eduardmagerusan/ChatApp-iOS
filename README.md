@@ -1,18 +1,15 @@
 <p align="center"><img width=12.5% src="https://user-images.githubusercontent.com/84686184/186276585-99db19d3-89bf-4ade-93a6-ab394e5cc660.png"></p>
 <h1 align="center">ChatApp</h1>
 
-## Quick Disclaimer
-
-I removed my private OpenWeather API key from the repo, if you want to get the weather forecast use your own in the WeatherManager.swift file (more info at https://openweathermap.org/appid).
+The application is a real-time chat using Firebase. It allows you send messages to your friends. Just sign up, choose a buddy and start chatting.
 
 ## Compatibility
 
-This project is written in Swift 5.0 and requires Xcode 13.4+ to build and run.
+This project is written in Swift 5.0 and requires Xcode 13+ to build and run.
 
-## Screenshots
+## Sign Up or Login
 <p float="center" align="center">
-  <img src="https://user-images.githubusercontent.com/84686184/184999976-2c3898b8-0e1c-458b-b49e-4dcf59dd4108.png" alt="Light apperance" width="300"/>
-  <img src="https://user-images.githubusercontent.com/84686184/185000296-096d54c4-81aa-4023-82a0-1b7e5490176b.png" alt="Dark apperance" width="300"/>
+  <img src="https://user-images.githubusercontent.com/84686184/186277636-b7b8b19b-ef34-49eb-b882-16cb6ec1b82b.png" alt="Light apperance" width="300"/>
 </p>
 
 ## Features
