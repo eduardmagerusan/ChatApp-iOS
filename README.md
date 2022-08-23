@@ -5,7 +5,7 @@ The application is a real-time chat using Firebase. It allows you send messages 
 
 ## Compatibility
 
-This project is written in Swift 5.0 and requires Xcode 13+ to build and run.
+This project is written in Swift 5.0 and requires Xcode 13.
 
 ## Sign Up or Login
 
@@ -24,8 +24,27 @@ Share messages and get them back from your buddies.
 </p>
 
 
-## Features
-* Beautiful UI and great UX
-* Dark-mode enabled weather app
-* Check the weather for the current location based on the GPS data from the iPhone 
-* Check the weather by searching for a city manually
+## How to run the app
+
+1. Open the FalconMessenger.xcworkspace in Xcode.
+2. Change the Bundle Identifier to match your domain.
+3. Go to Firebase and create new project.
+4. Select "Add Firebase to your iOS app" option, type the bundle Identifier & click continue.
+5. Download "GoogleService-Info.plist" file and add to the project. Make sure file name is "GoogleService-Info.plist".
+6. Go to Firebase Console, select your project, choose "Authentication" from left menu
+7. Select "SIGN-IN METHOD" and enable "Phone" option.
+8. Add Firebase storage rules:
+```
+// Allow read/write access on all documents to any user signed in to the application
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+
+
+
+
+
