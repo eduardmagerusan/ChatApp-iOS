@@ -19,12 +19,19 @@ class LoginViewController: UIViewController {
             Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
                 if let e = error {
                     print(e)
+                    self.alertUserLoginError(e: e)
                 } else {
                     self.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
             }
         }
         
+    }
+    
+    func alertUserLoginError(e: Error) {
+        let alert = UIAlertController(title: "Whoops", message: e.localizedDescription, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
+        present(alert, animated: true)
     }
     
 }
